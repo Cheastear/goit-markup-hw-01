@@ -16,6 +16,8 @@ header {
 .logo1 {
     font-family: Raleway;
     vertical-align:middle;
+}
+.logo1-margin {
     margin: 0px 38px 0px 120px;
 }
 .logo2 {
@@ -41,7 +43,7 @@ header {
 }
 
 address {
-    position: fixed;
+    position: absolute;
     right: 0;
     padding: 0px 120px;
 }
@@ -125,4 +127,10 @@ input {
 }
 .section-2-li-p {
     margin: 7px 0;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    padding: 100px;
 }
